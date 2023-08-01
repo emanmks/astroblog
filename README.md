@@ -1,14 +1,6 @@
-# Astro Starter Kit: Minimal
+# Astro Blog
 
-```
-npm create astro@latest -- --template minimal
-```
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+A simple blog made using Astro. The blog is for learning purpose only, and the output of the astro blog tutorial.
 
 ## 🚀 Project Structure
 
@@ -18,8 +10,29 @@ Inside of your Astro project, you'll see the following folders and files:
 /
 ├── public/
 ├── src/
+|   └── components/
+|   |   └── *.astro # astro components
+|   |   └── *.jsx  # react components
+|   |   └── *.svelte # svelte components
+|   |   └── ...
+|   └── layouts/
+|   |   └── BaseLayout.astro
+|   |   └── MarkdownPostLayout.astro
 │   └── pages/
-│       └── index.astro
+|   |   └── posts/
+|   |   |   └── post-1.md
+|   |   |   └── ...
+|   |   └── tags/
+|   |   |   └── [tag].astro
+|   |   |   └── index.astro
+│   |   └── about.astro
+|   |   └── blog.astro
+|   |   └── index.astro
+|   |   └── rss.xml.js
+|   └── scripts/
+|   |   └── menu.js
+|   └── styles/
+|   |   └── global.css
 └── package.json
 ```
 
