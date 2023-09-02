@@ -1,5 +1,5 @@
 {
-  "name": "astroblog",
+  "name": "astrotailwind",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,6 +10,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.10.14"
+    "@astrojs/mdx": "^1.0.0",
+    "@astrojs/tailwind": "^5.0.0",
+    "@types/canvas-confetti": "^1.6.0",
+    "astro": "^3.0.5",
+    "autoprefixer": "^10.4.15",
+    "canvas-confetti": "^1.6.0",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.3.3"
   }
 }
