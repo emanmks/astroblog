@@ -2,6 +2,17 @@
 
 A simple blog made using Astro. The blog is for learning purpose only, and the output of the astro blog tutorial.
 
+
+## 🚀 How it was initialized
+
+It is recommended to start with tailwind template.
+
+```bash
+npm create astro@latest -- --template with-tailwindcss
+```
+
+Make sure to build the project with Typescript support.
+
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
